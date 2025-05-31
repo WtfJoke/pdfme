@@ -22,7 +22,9 @@ The following code shows an example of importing QR code and image schemas from 
 
 ```ts
 import type { Template } from '@pdfme/common';
-import { text, image, barcodes } from '@pdfme/schemas';
+import { barcodes } from '@pdfme/schemas/barcodes';
+import { image } from '@pdfme/schemas/graphics/image';
+import { text } from '@pdfme/schemas/text';
 import { generate } from '@pdfme/generator';
 
 const template: Template = {
@@ -48,7 +50,9 @@ In this `@pdfme/ui` example, we're using the Designer, but you can load plugins 
 
 ```ts
 import type { Template } from '@pdfme/common';
-import { text, image, barcodes } from '@pdfme/schemas';
+import { barcodes } from '@pdfme/schemas/barcodes';
+import { image } from '@pdfme/schemas/graphics/image';
+import { text } from '@pdfme/schemas/text';
 import { Designer } from '@pdfme/ui';
 
 const domContainer = document.getElementById('container');

@@ -40,6 +40,126 @@
       },
       "require": "./dist/cjs/src/utils.js",
       "types": "./dist/types/src/utils.d.ts"
+    },
+    "./text": {
+      "import": {
+        "node": "./dist/node/src/text/index.js",
+        "default": "./dist/esm/src/text/index.js"
+      },
+      "require": "./dist/cjs/src/text/index.js",
+      "types": "./dist/types/src/text/index.d.ts"
+    },
+    "./multiVariableText": {
+      "import": {
+        "node": "./dist/node/src/multiVariableText/index.js",
+        "default": "./dist/esm/src/multiVariableText/index.js"
+      },
+      "require": "./dist/cjs/src/multiVariableText/index.js",
+      "types": "./dist/types/src/multiVariableText/index.d.ts"
+    },
+    "./graphics/image": {
+      "import": {
+        "node": "./dist/node/src/graphics/image.js",
+        "default": "./dist/esm/src/graphics/image.js"
+      },
+      "require": "./dist/cjs/src/graphics/image.js",
+      "types": "./dist/types/src/graphics/image.d.ts"
+    },
+    "./graphics/svg": {
+      "import": {
+        "node": "./dist/node/src/graphics/svg.js",
+        "default": "./dist/esm/src/graphics/svg.js"
+      },
+      "require": "./dist/cjs/src/graphics/svg.js",
+      "types": "./dist/types/src/graphics/svg.d.ts"
+    },
+    "./barcodes": {
+      "import": {
+        "node": "./dist/node/src/barcodes/index.js",
+        "default": "./dist/esm/src/barcodes/index.js"
+      },
+      "require": "./dist/cjs/src/barcodes/index.js",
+      "types": "./dist/types/src/barcodes/index.d.ts"
+    },
+    "./shapes/line": {
+      "import": {
+        "node": "./dist/node/src/shapes/line.js",
+        "default": "./dist/esm/src/shapes/line.js"
+      },
+      "require": "./dist/cjs/src/shapes/line.js",
+      "types": "./dist/types/src/shapes/line.d.ts"
+    },
+    "./shapes/rectangle": {
+      "import": {
+        "node": "./dist/node/src/shapes/rectAndEllipse.js",
+        "default": "./dist/esm/src/shapes/rectAndEllipse.js"
+      },
+      "require": "./dist/cjs/src/shapes/rectAndEllipse.js",
+      "types": "./dist/types/src/shapes/rectAndEllipse.d.ts"
+    },
+    "./shapes/ellipse": {
+      "import": {
+        "node": "./dist/node/src/shapes/rectAndEllipse.js",
+        "default": "./dist/esm/src/shapes/rectAndEllipse.js"
+      },
+      "require": "./dist/cjs/src/shapes/rectAndEllipse.js",
+      "types": "./dist/types/src/shapes/rectAndEllipse.d.ts"
+    },
+    "./tables": {
+      "import": {
+        "node": "./dist/node/src/tables/index.js",
+        "default": "./dist/esm/src/tables/index.js"
+      },
+      "require": "./dist/cjs/src/tables/index.js",
+      "types": "./dist/types/src/tables/index.d.ts"
+    },
+    "./dates/date": {
+      "import": {
+        "node": "./dist/node/src/date/date.js",
+        "default": "./dist/esm/src/date/date.js"
+      },
+      "require": "./dist/cjs/src/date/date.js",
+      "types": "./dist/types/src/date/date.d.ts"
+    },
+    "./dates/time": {
+      "import": {
+        "node": "./dist/node/src/date/time.js",
+        "default": "./dist/esm/src/date/time.js"
+      },
+      "require": "./dist/cjs/src/date/time.js",
+      "types": "./dist/types/src/date/time.d.ts"
+    },
+    "./dates/dateTime": {
+      "import": {
+        "node": "./dist/node/src/date/dateTime.js",
+        "default": "./dist/esm/src/date/dateTime.js"
+      },
+      "require": "./dist/cjs/src/date/dateTime.js",
+      "types": "./dist/types/src/date/dateTime.d.ts"
+    },
+    "./select": {
+      "import": {
+        "node": "./dist/node/src/select/index.js",
+        "default": "./dist/esm/src/select/index.js"
+      },
+      "require": "./dist/cjs/src/select/index.js",
+      "types": "./dist/types/src/select/index.d.ts"
+    },
+    "./radioGroup": {
+      "import": {
+        "node": "./dist/node/src/radioGroup/index.js",
+        "default": "./dist/esm/src/radioGroup/index.js"
+      },
+      "require": "./dist/cjs/src/radioGroup/index.js",
+      "types": "./dist/types/src/radioGroup/index.d.ts"
+    },
+    "./checkbox": {
+      "import": {
+        "node": "./dist/node/src/checkbox/index.js",
+        "default": "./dist/esm/src/checkbox/index.js"
+      },
+      "require": "./dist/cjs/src/checkbox/index.js",
+      "types": "./dist/types/src/checkbox/index.d.ts"
     }
   },
   "scripts": {

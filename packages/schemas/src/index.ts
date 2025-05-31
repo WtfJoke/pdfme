@@ -18,20 +18,65 @@ const builtInPlugins = { Text: text };
 export {
   builtInPlugins,
   // schemas
+  /**
+   * @deprecated Use the individual schemas instead (@pdfme/schemas/text)
+   */
   text,
+  /**
+   * @deprecated Use the individual schemas instead (@pdfme/schemas/multiVariableText)
+   */	
   multiVariableText,
+  /**
+   * @deprecated Use the individual schemas instead (@pdfme/schemas/graphics/image)
+   */
   image,
+  /**
+   * @deprecated Use the individual schemas instead (@pdfme/schemas/graphics/svg)
+   */
   svg,
+  /**
+   * @deprecated Use the individual schemas instead (@pdfme/schemas/tables)
+   */
   table,
+  /**
+   * @deprecated Use the individual schemas instead (@pdfme/schemas/barcodes)
+   */
   barcodes,
+  /**
+   * @deprecated Use the individual schemas instead (@pdfme/schemas/shapes/line)
+   */
   line,
+  /**
+   * @deprecated Use the individual schemas instead (@pdfme/schemas/shapes/rectangle)
+   */
   rectangle,
+  /**
+   * @deprecated Use the individual schemas instead (@pdfme/schemas/shapes/ellipse)
+   */
   ellipse,
+  /**
+   * @deprecated Use the individual schemas instead (@pdfme/schemas/dates/dateTime)
+   */
   dateTime,
+  /**
+   * @deprecated Use the individual schemas instead (@pdfme/schemas/dates/date)
+   */
   date,
+  /**
+   * @deprecated Use the individual schemas instead (@pdfme/schemas/dates/time)
+   */
   time,
+  /**
+   * @deprecated Use the individual schemas instead (@pdfme/schemas/select)
+   */
   select,
+  /**
+   * @deprecated Use the individual schemas instead (@pdfme/schemas/radioGroup)
+   */
   radioGroup,
+  /**
+   * @deprecated Use the individual schemas instead (@pdfme/schemas/checkbox)
+   */
   checkbox,
 };
 
